@@ -1,0 +1,31 @@
+{
+  "name": "ngorek",
+  "version": "1.0.0",
+  "description": "Dynamic web scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "scrape": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dedenbangkit/ngorek.git"
+  },
+  "keywords": [
+    "Web",
+    "Scrape"
+  ],
+  "author": "dedenbangkit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dedenbangkit/ngorek/issues"
+  },
+  "homepage": "https://github.com/dedenbangkit/ngorek#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "colors": "^1.3.3",
+    "inquirer": "^6.2.2",
+    "lodash": "^4.17.11",
+    "scavenger": "^3.3.0"
+  }
+}
